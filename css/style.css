@@ -1,0 +1,264 @@
+
+header nav{ 
+    background-color: rgb(253, 251, 251);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px ;
+}
+header nav .rtl-nav a{
+    color: #444;
+}
+header nav .rtl-nav a:hover{
+    color: #76697677;
+}
+header nav .rtl-nav li{
+    display: inline-block;
+}
+header nav .rtl-nav i{
+    margin: 10px 5px;
+    padding: 5px 5px;
+}
+header nav .lft-nav{
+    border: solid #444 1px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    padding: 5px 5px;
+}
+header nav .lft-nav a{
+    color: rgb(12, 5, 5);
+    font-size: .8em;
+    padding: 0px 0px 0px 3px;
+}
+header nav .lft-nav a:hover{
+    color: red;
+}
+header nav .lft-nav i{
+    padding: 5px 0px 5px 8px;
+}
+/* end of nav */
+/* start of slider */
+.slider{
+    position: relative;
+    font-size: 1em;
+}
+.item{
+    position: relative;
+    display: none;
+}
+.item span{
+    position: absolute;
+    top: 40%;
+    right: 10%;
+    z-index: 1;
+    color: black;
+    font-size: 200%;
+}
+.item img{
+    width: 100%;
+}
+.show{
+    display: block;
+}
+.buttons{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    z-index: 1;
+}
+.buttons i{
+    color: #202020a4;
+    margin: 3px;
+    cursor: pointer;
+}
+.buttons i:hover{
+    color:rgb(12, 11, 11);
+}
+/* end of slider */
+/* start of main */
+.product-sec-new{
+padding: 20px 10px;
+font-size: 1em;
+}
+.product-sec-new .shopping-card{
+    text-align: center;
+    box-shadow: 0px 2px 8px 0px rgba(0 , 0, 0, .2);
+    margin: 10px 15px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.shopping-card .image-sec{
+    position: relative;
+}
+.image-sec img{
+    width: 60%;
+}
+.image-sec .hot-offer{
+    background-color: #e74c3c;
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    padding: 3px 5px;
+    border-radius: 5px;
+    font-size: .9em;
+}
+.image-sec .stars{
+    color: rgb(231, 174, 15);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.shopping-card .title{
+    color: #333;
+    margin: 15px;
+}
+.shopping-card .buttons{
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.buttons .right .price{
+    color: #666;
+    font-weight: bold;
+}
+.buttons .left{
+    display: flex;
+}
+.buttons .left .extend-btn{
+    display: flex;
+    margin-left: 5px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2ecc71;
+    color: #fff;
+    width: 40px;
+    padding: 1px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .75;
+}
+.buttons .left .extend-btn:hover{
+    width: 100px; 
+}
+.buttons .left .extend-btn a{
+    color: white;
+}
+/* end of prodct sec new */
+.supper-offer-section{
+padding: 20px;
+font-size: 1em;
+}
+.supper-offer-section .supper-offer-box{
+text-align: center;
+box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 2);
+border-radius: 5px;
+margin: 0px 10px;
+}
+.supper-offer-box .supper-offer-box-tittle{
+background-color: tomato;
+color: white;
+padding: 8px 30px;
+display: inline-block;
+border-bottom-left-radius: 20px;
+border-bottom-right-radius: 20px;
+}
+.supper-offer-box .body .image-container{
+    text-align: center;
+    padding: 30px;
+}
+.helloalireza{
+    width: 100%;
+}
+.supper-offer-box .body .specification{
+    padding: 30px 5px;
+}
+.supper-offer-box .body .specification .price-row{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.supper-offer-box .body .specification .price-row .price{
+    margin-left: 50px ;
+    color: #444;
+    font-size: 1.2em;
+}
+.supper-offer-box .body .specification .price-row .off{
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px 20px;
+    border-radius: 25px;
+}
+.supper-offer-box .body .specification .tittle{
+    margin: 40px 0px;
+    font-weight: bold;
+    color: #444;
+    font-size: 1.4em;
+}
+.supper-offer-box .body .specification .counter-down{
+    border-top: 1px solid rgba(0, 0, 0, .4);
+    margin: 10px 40px;
+    padding-top: 20px;
+    font-weight: bold;
+    color: #666;
+    font-size: 2em;
+}
+.supper-offer-box .body .specification .remaining-time{
+    color: #777;
+    font-size: .8em;
+}
+.banner{
+    text-align: center;
+    padding: opx 5px ;
+}
+.banner img{
+    border-radius: 5px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 2);
+    width: 80%;
+    margin-top: 5px;
+}
+/* END of spperoffer section  */
+footer{
+background-color: #636e72;
+font-size: 1em;
+}
+footer .right{
+    padding: 40px;
+}
+footer .right .tittle{
+    padding: 10px 0px;
+    color: #fff;
+    font-size: 1.2em;
+}
+footer .right .des{
+    color: #fff;
+    line-height: 2em;
+    font-size: .8em;
+}
+footer .left{
+    padding: 40px;
+}
+footer .left .tittle{
+    padding: 10px 0px;
+    font-size: 1.2em;
+    color: #fff;
+}
+footer .left .social{
+    margin: 10px 50px;
+}
+footer .left .social a{
+    display: inline-block;
+    color: white;
+    font-size: 1.4em;
+    margin: 10px 20px;
+}
+footer .left .social a:hover{
+    color: rgb(247, 178, 51);
+    cursor: pointer;
+}
+footer .bottom{
+    background-color: #2d3436;
+    text-align: center ;
+    color: #fff;
+    padding: 20px;
+}
